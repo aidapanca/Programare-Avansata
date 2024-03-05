@@ -16,7 +16,7 @@ public class WheelGraph {
 
     //adjacency matrix
     private void generateAdjacencyMatrix() {
-        // Hub vertex
+        //hub vertex
         for (int i=0; i<n; i++) {
             adjacencyMatrix[0][i]=1;
             adjacencyMatrix[i][0]=1;
