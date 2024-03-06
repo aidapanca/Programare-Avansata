@@ -12,7 +12,7 @@ public class Client {
     private LocalTime maxTime;
     private ClientType type;
 
-    // Constructori
+    // Constructors
     public Client() {
     }
 
@@ -27,47 +27,47 @@ public class Client {
         this.type = type;
     }
 
-    //Getter pentru name
+    //Getter for name
     public String getName() {
         return name;
     }
 
-    //Setter pentru name
+    //Setter for name
     public void setName(String name) {
         this.name = name;
     }
 
-    //Getter pentru minTime
+    //Getter for minTime
     public LocalTime getMinTime() {
         return minTime;
     }
 
-    //Setter pentru minTime
+    //Setter for minTime
     public void setMinTime(LocalTime minTime) {
         this.minTime = minTime;
     }
 
-    //Getter pentru maxTime
+    //Getter for maxTime
     public LocalTime getMaxTime() {
         return maxTime;
     }
 
-    //Setter pentru maxTime
+    //Setter for maxTime
     public void setMaxTime(LocalTime maxTime) {
         this.maxTime = maxTime;
     }
 
-    //Getter pentru type
+    //Getter for type
     public ClientType getType() {
         return type;
     }
 
-    //Setter pentru type
+    //Setter for type
     public void setType(ClientType type) {
         this.type = type;
     }
 
-    //Override la toString
+    //Override at toString
     @Override
     public String toString() {
         return "Client{" + "name='" + name + '\'' + ", minTime=" + minTime + ", maxTime=" + maxTime + ", type=" + type + '}';
