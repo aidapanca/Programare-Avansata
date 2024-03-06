@@ -4,7 +4,6 @@
 
 package Compulsory;
 
-//Enum pentru tipurile de clienti
 public enum ClientType {
     REGULAR, PREMIUM
 }
