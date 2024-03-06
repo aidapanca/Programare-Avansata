@@ -12,33 +12,33 @@ public class Vehicle {
         this.name = name;
     }
 
-    //Getter pentru name
+    //Getter for name
     public String getName() {
         return name;
     }
 
-    //Setter pentru name
+    //Setter for name
     public void setName(String name) {
         this.name = name;
     }
 
-    //Getter pentru depot
+    //Getter for depot
     public Depot getDepot() {
         return depot;
     }
 
-    //Setter pentru depot
+    //Setter for depot
     public void setDepot(Depot depot) {
         this.depot = depot;
     }
 
-    //Override la toString
+    //Override at toString
     @Override
     public String toString() {
         return "Vehicle{" + "name='" + name + '\'' + '}';
     }
 
-    //Override la equals
+    //Override at equals
     @Override
     public boolean equals(Object obj) {
         if (obj == null || !(obj instanceof Vehicle)) {
