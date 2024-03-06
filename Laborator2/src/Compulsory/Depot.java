@@ -14,7 +14,7 @@ public class Depot {
         this.name = name;
     }
 
-    //Setter pentru vehicles
+    //Setter for vehicles
     public void setVehicles(Vehicle... vehicles) {
         this.vehicles = vehicles;
         for (Vehicle v : vehicles) {
@@ -22,22 +22,22 @@ public class Depot {
         }
     }
 
-    //Getter pentru vehicles
+    //Getter for vehicles
     public Vehicle[] getVehicles() {
         return vehicles;
     }
 
-    //Getter pentru name
+    //Getter for name
     public String getName() {
         return name;
     }
 
-    //Setter pentru name
+    //Setter for name
     public void setName(String name) {
         this.name = name;
     }
 
-    //Override la toString
+    //Override at toString
     @Override
     public String toString() {
         return "Depot{" + "name='" + name + '\'' + ", vehicles=" + Arrays.toString(vehicles) + '}';
