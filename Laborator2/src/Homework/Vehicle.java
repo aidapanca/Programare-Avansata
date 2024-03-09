@@ -4,7 +4,7 @@
 package Homework;
 import java.util.Objects;
 
-abstract class Vehicle {
+public abstract class Vehicle {
     protected String name;
 
     public Vehicle(String name) {
