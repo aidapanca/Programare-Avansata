@@ -3,7 +3,7 @@
  **/
 package Homework;
 
-class Truck extends Vehicle {
+public class Truck extends Vehicle {
     private int capacity;
 
     public Truck(String name, int capacity) {
