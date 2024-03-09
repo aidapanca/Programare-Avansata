@@ -3,7 +3,7 @@
  **/
 package Homework;
 
-class Drone extends Vehicle {
+public class Drone extends Vehicle {
     private int maxFlightDuration;
 
     public Drone(String name, int maxFlightDuration) {
