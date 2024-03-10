@@ -30,12 +30,12 @@ public class Trip {
                 .filter(attraction -> attraction instanceof Visitable && !(attraction instanceof Payable))
                 .sorted(Comparator.comparing(attraction -> {
                     if (attraction instanceof Visitable) {
-                        return ((Visitable) attraction).getOpeningHour("2024-03-10"); // Replace with actual date
+                        return ((Visitable) attraction).getOpeningHour("2024-03-10"); 
                     }
                     return null;
                 }))
                 .collect(Collectors.toList());
 
-        visitableNotPayableAttractions.forEach(attraction -> System.out.println(attraction.getName() + " - Opening Hour: " + ((Visitable) attraction).getOpeningHour("2024-03-10"))); // Replace with actual date
+        visitableNotPayableAttractions.forEach(attraction -> System.out.println(attraction.getName() + " - Opening Hour: " + ((Visitable) attraction).getOpeningHour("2024-03-10"))); 
     }
 }
