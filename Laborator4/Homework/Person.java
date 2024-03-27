@@ -1,3 +1,6 @@
+/**
+ @author Pâncă Aida-Gabriela, A5
+ **/
 package Homework;
 
 class Person {
